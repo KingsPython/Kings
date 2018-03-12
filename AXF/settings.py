@@ -7,8 +7,8 @@ def getURL(DATEBASE):
     port = DATEBASE['PORT']
     name = DATEBASE['NAME']
 
-    return 'mysql+pymysql://{}:{}@{}:{}/{}'.format(user, pwd, host, port, name)
-
+    # return 'mysql+pymysql://{}:{}@{}:{}/{}'.format(user, pwd, host, port, name)
+    return 'sqlite:///sqlite3.db'  # 共享的数据只能用sqlite
 
 
 class Config():
