@@ -3,7 +3,7 @@ import random
 a = random.randrange(1,10)
 
 
-print("快出现ｂｕｇ")
+
 
 print(a)
 
